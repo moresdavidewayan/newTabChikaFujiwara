@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Asleep";
+  src: url("./Asleepytiming.otf") format("truetype");
+}
+
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+clock {
+  position: relative;
+  top: 30vh;
+  color: white;
+  font-family: "Asleep";
+}
+
+.clockElement {
+  font-size: 5em;
+}
+
+.clockDivider {
+  font-family: "Asleep";
+  font-size: 5em;
+  color: white;
+}
+
+#topLayer {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+#searchBar {
+  position: relative;
+  top: 40vh;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+  border: 0px;
+  border-color: #1c1c1c;
+  border-block-color: #1c1c1c;
+}
